@@ -60,7 +60,7 @@ cd
 yay -S toilet --answerclean all --noconfirm # terminal stuff from the AUR
 yay -S woeusb --answerclean all --noconfirm # woeusb
 yay -S nomachine --answerclean all --noconfirm # nomachine
-yay -S balena-etcher --answerclean all --noconfirm # balena etcher
+yay -S etcher-git --answerclean all --noconfirm # balena etcher
 
 ### Package managers & installers ###
 
