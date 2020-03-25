@@ -105,7 +105,7 @@ yay -S viper4linux-gui-git --answerclean all --noconfirm #viper4linux-gui
 ### Virtualization ###
 
 sudo pacman -S --noconfirm virtualbox # virtualbox
-sudo pacman -S --noconfirm virt-manager # virt-manager 
+sudo pacman -S --noconfirm qemu virt-manager # virt-manager 
 sudo pacman -S --noconfirm virtualbox-host-modules # something virtualbox needs kek
 
 yay -S vmware-workstation --answerclean all --noconfirm # vmware-workstation
@@ -118,5 +118,3 @@ yay -s ckb-next-git --answerclean all --noconfirm # ckb-next
 ### hardware tools ###
 
 yay -S gwe --answerclean all --noconfirm # green with envy
-
-### --- Remove KDE stuff i don't need --- ### 
