@@ -73,6 +73,7 @@ sudo pacman -S --noconfirm firefox # firefox
 sudo pacman -S --noconfirm telegram-desktop # telegram desktop
 
 yay -S discord-ptb --answerclean all --noconfirm # discord-ptb
+yay -S freetube-bin --answerclear all --noconfirm # freetube
 yay -S lbry-app-bin --answerclean all --noconfirm # lbry
 yay -S haguichi-git --answerclean all --noconfirm # haguichi-git
 yay -S logmein-hamachi --answerclean all --noconfirm # logmein-hamachi
