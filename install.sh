@@ -73,7 +73,7 @@ sudo pacman -S --noconfirm firefox # firefox
 sudo pacman -S --noconfirm telegram-desktop # telegram desktop
 
 yay -S discord-ptb --answerclean all --noconfirm # discord-ptb
-yay -S freetube-bin --answerclear all --noconfirm # freetube
+yay -S freetube-bin --answerclean all --noconfirm # freetube
 yay -S lbry-app-bin --answerclean all --noconfirm # lbry
 yay -S haguichi-git --answerclean all --noconfirm # haguichi-git
 yay -S logmein-hamachi --answerclean all --noconfirm # logmein-hamachi
@@ -97,10 +97,15 @@ sudo pacman -S mupdf --noconfirm # mupdf
 sudo pacman -S kdenlive --noconfirm # kdenlive
 
 yay -S spotify --answerclean all --noconfirm # spotify 
-yay -S sublime-text --answerclean all --noconfirm # sublime text
 yay -S obs-studio-git --answerclean all --noconfirm # obs
 yay -S viper4linux-git --answerclean all --noconfirm # viper4linux
 yay -S viper4linux-gui-git --answerclean all --noconfirm #viper4linux-gui
+
+### Development ###
+
+sudo pacman -S code --noconfirm # VSCode
+
+yay -S sublime-text --answerclean all --noconfirm # sublime text
 
 ### Virtualization ###
 
