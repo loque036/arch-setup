@@ -123,3 +123,7 @@ yay -s ckb-next-git --answerclean all --noconfirm # ckb-next
 ### hardware tools ###
 
 yay -S gwe --answerclean all --noconfirm # green with envy
+
+### Fonts ###
+
+sudo pacman -S ttf-hanazono --noconfirm # fix for japanese characters
