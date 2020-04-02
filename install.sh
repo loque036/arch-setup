@@ -71,12 +71,23 @@ sudo pacman -S flatpak --noconfirm # flatpak
 sudo pacman -S links --noconfirm # links
 sudo pacman -S firefox --noconfirm # firefox
 sudo pacman -S discord --noconfirm # discord
-sudo pacman -S telegram-desktop --noconfirm # telegram desktop
 
 yay -S freetube-bin --answerclean all --noconfirm # freetube
 yay -S lbry-app-bin --answerclean all --noconfirm # lbry
 yay -S haguichi-git --answerclean all --noconfirm # haguichi-git
 yay -S logmein-hamachi --answerclean all --noconfirm # logmein-hamachi
+
+# telegram desktop
+
+tgver=2.0.1
+
+mkdir $HOME/Downloads/Telegram
+cd $HOME/Downloads/Telegram
+wget https://github.com/telegramdesktop/tdesktop/releases/download/v${tgver}/tsetup.${tgver}.tar.xz
+tar -xJvf tsetup.${tgver}.tar.xz
+sudo mv Telegram /opt/telegram
+sudo ln -sf /opt/telegram/Telegram /usr/bin/telegram
+cd $HOME
 
 ### Gaming ###
 
