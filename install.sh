@@ -44,11 +44,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 ### Tools ###
 
-sudo pacman -S --noconfirm p7zip # archive tools
-sudo pacman -S --noconfirm adb fastboot # android tools
-sudo pacman -S --noconfirm powertop tlp htop # energy stuff
-sudo pacman -S --noconfirm python python-pip python3 # python stuff
-sudo pacman -S --noconfirm neofetch figlet cowsay lolcat screen wget curl git tree speedtest-cli rofi # terminal stuff
+sudo pacman -S p7zip --noconfirm # archive tools
+sudo pacman -S adb fastboot --noconfirm # android tools
+sudo pacman -S powertop tlp htop --noconfirm # energy stuff
+sudo pacman -S python python-pip python3 --noconfirm # python stuff
+sudo pacman -S neofetch figlet cowsay lolcat screen wget curl git tree speedtest-cli rofi --noconfirm # terminal stuff
 
 # yay (aur helper)
 
@@ -64,14 +64,14 @@ yay -S etcher-git --answerclean all --noconfirm # balena etcher
 
 ### Package managers & installers ###
 
-sudo pacman -S --noconfirm flatpak # flatpak
+sudo pacman -S flatpak --noconfirm # flatpak
 
 ### Communication & Internet ###
 
-sudo pacman -S --noconfirm links # links
-sudo pacman -S --noconfirm firefox # firefox
+sudo pacman -S links --noconfirm # links
+sudo pacman -S firefox --noconfirm # firefox
 sudo pacman -S discord --noconfirm # discord
-sudo pacman -S --noconfirm telegram-desktop # telegram desktop
+sudo pacman -S telegram-desktop --noconfirm # telegram desktop
 
 yay -S freetube-bin --answerclean all --noconfirm # freetube
 yay -S lbry-app-bin --answerclean all --noconfirm # lbry
@@ -109,9 +109,9 @@ yay -S sublime-text --answerclean all --noconfirm # sublime text
 
 ### Virtualization ###
 
-sudo pacman -S --noconfirm virtualbox # virtualbox
-sudo pacman -S --noconfirm qemu virt-manager # virt-manager 
-sudo pacman -S --noconfirm virtualbox-host-modules # something virtualbox needs kek
+sudo pacman -S virtualbox --noconfirm # virtualbox
+sudo pacman -S qemu virt-manager --noconfirm # virt-manager 
+sudo pacman -S virtualbox-host-modules --noconfirm # something virtualbox needs kek
 
 yay -S vmware-workstation --answerclean all --noconfirm # vmware-workstation
 
