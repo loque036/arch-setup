@@ -95,9 +95,9 @@ sudo pacman -S vlc --noconfirm # vlc
 sudo pacman -S gimp --noconfirm # gimp
 sudo pacman -S mupdf --noconfirm # mupdf
 sudo pacman -S kdenlive --noconfirm # kdenlive
+sudo pacman -S obs-studio --noconfirm # obs
 
 yay -S spotify --answerclean all --noconfirm # spotify 
-yay -S obs-studio-git --answerclean all --noconfirm # obs
 yay -S viper4linux-git --answerclean all --noconfirm # viper4linux
 yay -S viper4linux-gui-git --answerclean all --noconfirm #viper4linux-gui
 
@@ -126,7 +126,7 @@ yay -S gwe --answerclean all --noconfirm # green with envy
 
 ### Fonts ###
 
-sudo pacman -S ttf-opensans # needed for telegram desktop
+sudo pacman -S ttf-opensans --noconfirm # needed for telegram desktop
 sudo pacman -S adobe-source-han-sans-jp-fonts --noconfirm # japanese fonts
 sudo pacman -S adobe-source-han-sans-kr-fonts --noconfirm # korean fonts
 sudo pacman -S adobe-source-han-sans-cn-fonts --noconfirm # chinese fonts
