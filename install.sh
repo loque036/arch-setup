@@ -70,9 +70,9 @@ sudo pacman -S --noconfirm flatpak # flatpak
 
 sudo pacman -S --noconfirm links # links
 sudo pacman -S --noconfirm firefox # firefox
+sudo pacman -S discord --noconfirm # discord
 sudo pacman -S --noconfirm telegram-desktop # telegram desktop
 
-yay -S discord-ptb --answerclean all --noconfirm # discord-ptb
 yay -S freetube-bin --answerclean all --noconfirm # freetube
 yay -S lbry-app-bin --answerclean all --noconfirm # lbry
 yay -S haguichi-git --answerclean all --noconfirm # haguichi-git
