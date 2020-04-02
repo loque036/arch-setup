@@ -126,10 +126,11 @@ yay -S gwe --answerclean all --noconfirm # green with envy
 
 ### Fonts ###
 
+sudo pacman -S ttf-opensans # needed for telegram desktop
 sudo pacman -S adobe-source-han-sans-jp-fonts --noconfirm # japanese fonts
 sudo pacman -S adobe-source-han-sans-kr-fonts --noconfirm # korean fonts
 sudo pacman -S adobe-source-han-sans-cn-fonts --noconfirm # chinese fonts
 sudo pacman -S adobe-source-han-sans-tw-fonts --noconfirm # taiwanese fonts
 
-yay -S ttf-meslo-nerd-font-powerlevel10k --answerclean all --noconfirm # patched font for powerlevel10k
 yay -S ttf-ms-fonts --answerclean all --noconfirm # microsoft fonts, some characters don't show up correctly if not installed
+yay -S ttf-meslo-nerd-font-powerlevel10k --answerclean all --noconfirm # patched font for powerlevel10k
