@@ -2,10 +2,10 @@
 
 ### --- Install everything --- ###
 
-# AUR folder for yay and other AUR packages
+# Working directory where everything is downloaded
 
-mkdir ~/AUR
-cd ~/AUR
+mkdir $HOME/Downloads/install
+cd $HOME/Downloads/install
 
 ### Enable multilib repo ###
 
@@ -81,8 +81,8 @@ yay -S logmein-hamachi --answerclean all --noconfirm # logmein-hamachi
 
 tgver=2.0.1
 
-mkdir $HOME/Downloads/Telegram
-cd $HOME/Downloads/Telegram
+mkdir $HOME/Downloads/install/Telegram
+cd $HOME/Downloads/install/Telegram
 wget https://github.com/telegramdesktop/tdesktop/releases/download/v${tgver}/tsetup.${tgver}.tar.xz
 tar -xJvf tsetup.${tgver}.tar.xz
 sudo mv Telegram /opt/telegram
@@ -131,8 +131,8 @@ sudo systemctl start vboxweb.service
 
 # vmware workstation
 
-mkdir $HOME/Downloads/vmware
-cd $HOME/Downloads/vmware
+mkdir $HOME/Downloads/install/vmware
+cd $HOME/Downloads/install/vmware
 
 sudo pacman -S git fuse2 gtkmm linux-headers libcanberra pcsclite --noconfirm
 yay -S vmware-systemd-services ncurses5-compat-libs --answerclean all --noconfirm
