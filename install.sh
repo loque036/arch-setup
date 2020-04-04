@@ -129,9 +129,25 @@ yay -S virtualbox-ext-oracle --answerclean all --noconfirm
 sudo systemctl enable vboxweb.service
 sudo systemctl start vboxweb.service
 
-sudo pacman -S qemu virt-manager --noconfirm # virt-manager 
+# vmware workstation
 
-yay -S vmware-workstation --answerclean all --noconfirm # vmware-workstation
+mkdir $HOME/Downloads/vmware
+cd $HOME/Downloads/vmware
+
+sudo pacman -S git fuse2 gtkmm linux-headers libcanberra pcsclite --noconfirm
+yay -S vmware-systemd-services ncurses5-compat-libs --answerclean all --noconfirm
+sudo systemctl start vmware
+sudo systemctl enable vmware
+wget https://download3.vmware.com/software/wkst/file/VMware-Workstation-Full-15.5.2-15785246.x86_64.bundle
+chmod +x VMware-Workstation-Full-15.5.2-15785246.x86_64.bundle
+sudo mkdir /etc/init.d
+sudo ./VMware-Workstation-Full-15.5.2-15785246.x86_64.bundle
+sudo vmware-modconfig --console --install-all
+sudo /etc/init.d/vmware start
+sudo systemctl start vmware
+sudo systemctl enable vmware
+
+sudo pacman -S qemu virt-manager --noconfirm # virt-manager 
 
 ### peripheral software ###
 
