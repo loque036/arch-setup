@@ -166,5 +166,15 @@ sudo pacman -S adobe-source-han-sans-kr-fonts --noconfirm # korean fonts
 sudo pacman -S adobe-source-han-sans-cn-fonts --noconfirm # chinese fonts
 sudo pacman -S adobe-source-han-sans-tw-fonts --noconfirm # taiwanese fonts
 
-yay -S ttf-ms-fonts --answerclean all --noconfirm # microsoft fonts, some characters don't show up correctly if not installed
 yay -S ttf-meslo-nerd-font-powerlevel10k --answerclean all --noconfirm # patched font for powerlevel10k
+
+# microsoft windows 10 fonts
+
+mkdir $HOME/Downloads/install/win10-fonts
+cd $HOME/Downloads/install/win10-fonts
+
+git clone https://github.com/fphoenix88888/ttf-mswin10-arch
+cd ttf-mswin10-arch
+sudo pacman -U ttf-ms-win10-* --noconfirm
+
+exit
