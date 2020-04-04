@@ -122,7 +122,7 @@ yay -S sublime-text --answerclean all --noconfirm # sublime text
 
 # virtualbox
 
-sudo pacman -S virtualbox virtualbox-guest-iso virtualbox-host-modules --noconfirm
+sudo pacman -S virtualbox virtualbox-guest-iso virtualbox-host-modules-arch --noconfirm
 sudo gpasswd -a $USER vboxusers
 sudo modprobe vboxdrv
 yay -S virtualbox-ext-oracle --answerclean all --noconfirm
