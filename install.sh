@@ -120,9 +120,16 @@ yay -S sublime-text --answerclean all --noconfirm # sublime text
 
 ### Virtualization ###
 
-sudo pacman -S virtualbox --noconfirm # virtualbox
+# virtualbox
+
+sudo pacman -S virtualbox virtualbox-guest-iso virtualbox-host-modules --noconfirm
+sudo gpasswd -a $USER vboxusers
+sudo modprobe vboxdrv
+yay -S virtualbox-ext-oracle --answerclean all --noconfirm
+sudo systemctl enable vboxweb.service
+sudo systemctl start vboxweb.service
+
 sudo pacman -S qemu virt-manager --noconfirm # virt-manager 
-sudo pacman -S virtualbox-host-modules --noconfirm # something virtualbox needs kek
 
 yay -S vmware-workstation --answerclean all --noconfirm # vmware-workstation
 
