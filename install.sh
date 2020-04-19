@@ -72,6 +72,7 @@ sudo pacman -S links --noconfirm # links
 sudo pacman -S firefox --noconfirm # firefox
 sudo pacman -S discord --noconfirm # discord
 
+yay -S keybase-bin --anserclean all --noconfirm # keybase
 yay -S freetube-bin --answerclean all --noconfirm # freetube
 yay -S lbry-app-bin --answerclean all --noconfirm # lbry
 yay -S haguichi-git --answerclean all --noconfirm # haguichi-git
